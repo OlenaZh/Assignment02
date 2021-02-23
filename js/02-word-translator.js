@@ -7,6 +7,8 @@ if (translateCode = es) {
     window.document.write("Hello World translated in Franch is: Bonjour le monde");
 } else if (translateCode = en) {
     window.document.write("Hello World translated in English is: Hello World");
+} else  {
+    window.document.write("Hello World translated in English is: Hello World");
 }
 
 
