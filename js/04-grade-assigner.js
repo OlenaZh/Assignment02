@@ -8,8 +8,6 @@ if (grade >= 90) {
     document.write ("You received a C");
 } else if (grade >= 60) {
     document.write ("You received a D");
-}  else if (grade > 100 && grade < 1) {
-    alert ("Only numbers between 1 and 100 are accepted");
 } else  {
     document.write ("You received an F");
 }
