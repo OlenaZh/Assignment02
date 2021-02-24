@@ -8,15 +8,15 @@ if (coinFlip < 10) {
     var flipResult = "tails";
 } if (flipResult == choice) {
     if (flipResult == "heads") {
-        alert("The flip was heads and you chose heads...you win!");
+        alert("CoinFlip = " ${coinFlip} " The flip was heads and you chose heads...you win!");
     } else {
-        alert("The flip was tails and you chose heads...you lose!"); 
+        alert("CoinFlip = " ${coinFlip} " The flip was tails and you chose heads...you lose!"); 
     }
 } else {
     if (flipResult == "tails") {
-        alert("The flip was tails and you chose tails...you win!"); 
+        alert("CoinFlip = " ${coinFlip} " The flip was tails and you chose tails...you win!"); 
     } else {
-        alert("The flip was heads and you chose tails...you lose!"); 
+        alert("CoinFlip = " ${coinFlip} " The flip was heads and you chose tails...you lose!"); 
     }
 
 }
