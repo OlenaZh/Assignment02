@@ -1,3 +1,4 @@
+/*eslint-env browser*/
 var coinFlip = Math.round(Math.random());
 var choice = window.prompt ("Heads or Tails");
 var flipResult;
