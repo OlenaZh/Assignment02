@@ -13,10 +13,10 @@ if (coinFlip < 10) {
         alert("The flip was tails and you chose heads...you lose!"); 
     }
 } else {
-    if (flipResult == "heads") {
-        alert("The flip was heads and you chose tails...you lose!"); 
-    } else {
+    if (flipResult == "tails") {
         alert("The flip was tails and you chose tails...you win!"); 
+    } else {
+        alert("The flip was heads and you chose tails...you lose!"); 
     }
 
 }
