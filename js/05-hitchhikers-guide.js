@@ -5,7 +5,7 @@ if (play == "yes") {
     alert ("You are in a dark, dingy, and humid cave searching for the lost treasure of Captain Chingadera. You are disoriented, lost, hungry and extremely thirsty. You see a speck of light in the distance ahead of you, something shimmering to your right, and the sound of running water to your left. Your back is against the wall.");
 } else {
     document.write ("Thank you. Play again later")
-};
+}
 
 var direction = window.prompt ("Which direction would you like to head (please enter forward, left, or right)?");
 switch (direction) {
@@ -20,4 +20,4 @@ switch (direction) {
         break;
     default:
         alert ("The ghost of Captain Chingadera has condemned you to eternal damnation and you shall now burn in the hot excoriation for lifeless lowlifes for not choosing the correct option.");    
-}
+};
