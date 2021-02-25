@@ -10,7 +10,7 @@ if (play == "yes") {
 var direction = window.prompt ("Which direction would you like to head (please enter forward, left, or right)?");
 switch (direction) {
     case "left" :
-        alrt ("Your thirst has gotten the better of you. You trip on a rock, hit your head, and fall into a pool of water and drown!");
+        alert ("Your thirst has gotten the better of you. You trip on a rock, hit your head, and fall into a pool of water and drown!");
         break;
     case "forward" :
         alert ("You walk 100 yards and safely make your way out of the cave.");
