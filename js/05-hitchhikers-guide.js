@@ -30,4 +30,4 @@ if (rate >= 6 && rate <= 10) {
     
 } else {
     alert ("The game is over. Thank you.");
-}
+} 
