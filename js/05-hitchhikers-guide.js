@@ -22,7 +22,7 @@ switch (direction) {
         alert ("The ghost of Captain Chingadera has condemned you to eternal damnation and you shall now burn in the hot excoriation for lifeless lowlifes for not choosing the correct option.");    
 }
 
-var rate = alert ("The game is over. How would you rate the game from 1 to 10.");
+var rate = window.prompt ("The game is over. How would you rate the game from 1 to 10.");
 if (rate >= 6 && rate <= 10) {
     alert ("Thank you. Would you like to play again?");
 } else if (rate >= 1 && rate <= 5) {
